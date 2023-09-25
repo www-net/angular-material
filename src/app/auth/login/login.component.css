@@ -1,0 +1,10 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mdc-card {
+  margin-top: 200px;
+  padding: 40px;
+  width: 30vw;
+}

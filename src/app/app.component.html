@@ -1,6 +1,9 @@
 <mat-toolbar color="primary" class="flex justify-content-between">
   mat-toolbar
 
-  <a href="" color="accent" mat-raised-button>Login</a>
+  <a [routerLink]="['/login']" href="" color="accent" mat-raised-button>Login</a>
 
 </mat-toolbar>
+
+<router-outlet></router-outlet>
+
