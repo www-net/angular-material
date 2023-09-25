@@ -8,6 +8,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatChipsModule} from '@angular/material/chips';
 
 
 
@@ -24,6 +26,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
   MatCardModule,
   MatDividerModule,
   MatProgressSpinnerModule,
+  MatGridListModule,
+  MatChipsModule,
   ],
 })
 export class MaterialDesignModule { }

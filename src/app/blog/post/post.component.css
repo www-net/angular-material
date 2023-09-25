@@ -1,0 +1,15 @@
+.mdc-card {
+  margin: 0 30vw;
+}
+
+.mat-mdc-chip[color=tomato] {
+  background-color: tomato;
+}
+
+.mat-mdc-chip[color=pink] {
+  background-color: pink;
+}
+
+.mat-mdc-chip[color=lightblue] {
+  background-color: lightblue;
+}
