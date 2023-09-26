@@ -10,6 +10,8 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -28,6 +30,8 @@ import {MatChipsModule} from '@angular/material/chips';
   MatProgressSpinnerModule,
   MatGridListModule,
   MatChipsModule,
+  MatBadgeModule,
+  MatIconModule,
   ],
 })
 export class MaterialDesignModule { }

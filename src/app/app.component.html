@@ -2,7 +2,11 @@
   mat-toolbar
 
   <a [routerLink]="['/blog']" href="" color="accent" mat-raised-button>Blog</a>
-  <a [routerLink]="['/login']" href="" color="accent" mat-raised-button>Login</a>
+
+  <div class="demo-section">
+    <mat-icon style="margin-right: 15px;" matBadge="15" matBadgeColor="accent">notifications</mat-icon>
+    <a [routerLink]="['/login']" href="" color="accent" mat-raised-button>Login</a>
+  </div>
 
 </mat-toolbar>
 

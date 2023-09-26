@@ -17,6 +17,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   justify-content: space-between;
 }
 
+.mat-icon {
+  position: relative;
+  top: 6px;
+}
+
+
 .m-auto {
   margin: auto;
 }
