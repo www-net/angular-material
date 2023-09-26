@@ -55,5 +55,5 @@ const ELEMENT_DATA: PeriodicElement[] = [
 
 export class AdminBlogComponent {
   dataSource = ELEMENT_DATA;
-  displayedColumns: string[] = ['id', 'title', 'image', 'published_at', ];
+  displayedColumns: string[] = ['id', 'title', 'image', 'published_at', 'actions'];
 }
