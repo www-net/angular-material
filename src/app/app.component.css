@@ -1,0 +1,13 @@
+.mat-icon {
+  position: relative;
+  top: 6px;
+}
+
+.mat-mdc-icon-button {
+  margin-right: 20px;
+}
+
+.demo-section {
+  display: flex;
+  align-items: center;
+}

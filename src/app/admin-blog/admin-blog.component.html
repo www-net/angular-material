@@ -1,0 +1,11 @@
+<p>admin-blog works!</p>
+<h1>All blogs</h1>
+
+<table mat-table [dataSource]="dataSource">
+  <mat-text-column name="id"></mat-text-column>
+  <mat-text-column name="title"></mat-text-column>
+  <mat-text-column name="image"></mat-text-column>
+  <mat-text-column name="published_at"></mat-text-column>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let rowData; columns: displayedColumns;"></tr>
+</table>

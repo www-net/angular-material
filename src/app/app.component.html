@@ -4,11 +4,16 @@
   <a [routerLink]="['/blog']" href="" color="accent" mat-raised-button>Blog</a>
 
   <div class="demo-section">
-    <mat-icon style="margin-right: 15px;" matBadge="15" matBadgeColor="accent">notifications</mat-icon>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon style="margin-right: 15px;" matBadge="15" matBadgeColor="accent">notifications</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>It's time to learn English</button>
+      <button mat-menu-item>Сorner sciences</button>
+    </mat-menu>
     <a [routerLink]="['/login']" href="" color="accent" mat-raised-button>Login</a>
   </div>
 
 </mat-toolbar>
 
 <router-outlet></router-outlet>
-
