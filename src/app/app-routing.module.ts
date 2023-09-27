@@ -4,6 +4,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { BlogPageComponent } from './blog/blog-page/blog-page.component';
 import { PostComponent } from './blog/post/post.component';
 import { AdminBlogComponent } from './admin-blog/admin-blog.component';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
