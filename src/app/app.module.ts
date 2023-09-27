@@ -10,6 +10,7 @@ import { BlogPageComponent } from './blog/blog-page/blog-page.component';
 import { SingleBlogComponent } from './blog/single-blog/single-blog.component';
 import { PostComponent } from './blog/post/post.component';
 import { AdminBlogComponent } from './admin-blog/admin-blog.component';
+import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AdminBlogComponent } from './admin-blog/admin-blog.component';
     BlogPageComponent,
     SingleBlogComponent,
     PostComponent,
-    AdminBlogComponent
+    AdminBlogComponent,
+    DeleteDialogComponent
   ],
   imports: [
     BrowserModule,
